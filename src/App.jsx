@@ -1,11 +1,19 @@
+import Header from "./components/header.jsx";
+import Hero from "./components/hero.jsx";
+import toggleTheme from "./components/header.jsx";
+
 function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-900">
-      <h1 className="text-4xl font-bold text-blue-500">
-        Tailwind funcionando 🚀
-      </h1>
+    <div>
+      <Header />
+      <main className="min-h-screen bg-gray-200 flex flex-col items-center justify-center">
+      <Hero />
+      </main>
     </div>
+      
+    
   );
 }
+
 
 export default App;
