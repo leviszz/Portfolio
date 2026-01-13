@@ -2,6 +2,7 @@ import GithubIcon from "../assets/icons/github.svg?react";
 import LinkedinIcon from "../assets/icons/linkedin.svg?react";
 
 
+
 function Header() {
   return (
     <header className="w-full border-b border-gray-200 bg-white">

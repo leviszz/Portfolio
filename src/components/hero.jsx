@@ -1,3 +1,5 @@
+
+
 function Hero() {
   return (
     <section className="w-full bg-gray-200 flex flex-col items-center justify-center text-center -translate-y-16">
@@ -6,8 +8,8 @@ function Hero() {
             <p className="mt-2 mb-5 text-base text-gray-600">Criando interfaces modernas e responsivas com React e Tailwind</p>
             
             <div className="flex flex-col items-center mt-1 ">
-                <button className="border border-black px-6 py-2 rounded-full text-sm hover:bg-black hover:text-white transition mt-1 mb-1">Entre em contato</button>
-                <button className="
+                <a href="#contato" className="border border-black px-6 py-2 rounded-full text-sm hover:bg-black hover:text-white transition mt-1 mb-1">Entre em contato</a>
+                <a href="#projetos"className="
                      bg-black text-white 
                         px-8 py-4 rounded-2xl 
                         font-medium text-lg
@@ -17,7 +19,7 @@ function Hero() {
                         hover:scale-[1.02]
                         active:scale-[0.98] mt-3
                         ">Ver Projetos
-                </button>
+                </a>
                 
             </div>
         </div>

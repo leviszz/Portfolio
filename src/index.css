@@ -5,3 +5,7 @@
     font-family: Hero;
     src: url(../assets/fonts/Hero-New-Black.ttf) format("truetype");
 }
+    html {
+  scroll-behavior: smooth;
+}
+
