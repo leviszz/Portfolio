@@ -1,7 +1,8 @@
 import Header from "./components/header.jsx";
 import Hero from "./components/hero.jsx";
 import Projects from "./components/projetos.jsx";
-
+import Sobre from "./components/sobre.jsx";
+import Contato from "./components/contato.jsx";
 function App() {
   return (
     <div className="scroll-smooth">
@@ -11,7 +12,7 @@ function App() {
       </main>
       <section 
         id="projetos"
-        className=" w-full max-w-7x1 bg-gray-200 flex items-center justify-center border-t border-gray-300"
+        className=" pt-16 w-full max-w-7x1 bg-gray-200 flex items-center justify-center border-t border-gray-300"
       >
         <Projects />  
     
@@ -20,16 +21,18 @@ function App() {
       {/* SOBRE */}
       <section
         id="sobre"
-        className="min-h-screen bg-gray-200 flex items-center justify-center border-t border-gray-300"
+        className="pt-16 min-h-screen bg-gray-200 flex items-center justify-center border-t border-gray-300"
       >
+        <Sobre/>
 
       </section>
 
       {/* CONTATO */}
       <section
         id="contato"
-        className="min-h-screen bg-gray-200 flex items-center justify-center"
+        className="pt-16 min-h-screen bg-gray-200 flex items-center border-t border-gray-300 justify-center"
       >
+        <Contato/>
      
       </section>
     </div>

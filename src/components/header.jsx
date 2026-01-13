@@ -5,7 +5,7 @@ import LinkedinIcon from "../assets/icons/linkedin.svg?react";
 
 function Header() {
   return (
-    <header className="w-full border-b border-gray-200 bg-white">
+    <header className=" h-16 fixed top-0 z-50 w-full border-b border-gray-200 bg-white">
       <div className="mx-auto flex items-center justify-between px-6 py-4">
       
       

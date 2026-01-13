@@ -9,7 +9,7 @@ function Projects() {
       id="projetos"
       className="min-h-screen bg-gray-200 px-6 py-10"
     >
-            <h1 className="text-3xl font-light text-center mb-5 ">
+            <h1 className="text-4xl font-light text-center mb-5 ">
       Projetos
     </h1>
     <h3 className="text-xl font-thin mb-16    border-gray-300 leading-snug text-center opacity-50"> 
@@ -27,7 +27,7 @@ function Projects() {
                 max-w-6x1
                  
                 ">
-  <h3 className="text-xl font-semibold mb-1 pb-3 mt-3 border-b border-gray-100 leading-snug ">
+  <h3 className="text-xl font-normal mb-1 pb-3 mt-3 border-b border-gray-100 leading-snug ">
   Redesing do Site do Alistamento Militar Brasileiro
   </h3>
 
