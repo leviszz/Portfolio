@@ -3,23 +3,25 @@ import SiteIcon from "../assets/icons/site.svg?react";
 import CssIcon from "../assets/icons/css.svg?react";
 import JSIcon from "../assets/icons/javascript.svg?react";
 import HTMLIcon from "../assets/icons/html5.svg?react";
-function Projects() {
+import FigmaIcon from "../assets/icons/figma.svg?react";
+function Projects({t}) {
   return (
     <section
       id="projetos"
-      className="min-h-screen bg-gray-200 px-6 py-10"
+      className="min-h-screen bg-gray-200 dark:bg-slate-900 px-6 py-10"
     >
-            <h1 className="text-4xl font-light text-center mb-5 ">
-      Projetos
+            <h1 className="text-4xl font-light text-center mb-5 dark:text-slate-300 ">
+      {t.projects.title}
     </h1>
-    <h3 className="text-xl font-thin mb-16    border-gray-300 leading-snug text-center opacity-50"> 
-      Obs: Os ícones presentes no canto inferior de cada projeto representam as principais tecnologias utilizadas em seu desenvolvimento.
+    <h3 className="text-xl font-thin mb-16  dark:text-slate-300   border-gray-900 leading-snug text-center opacity-50"> 
+      {t.projects.note}
     </h3>
     
 {/* Projeto 1 - Redesing do site do Alistamento Militar Brasileiro*/} 
 <div id="Projeto 1" className=" relative mt-10
                  bg-white
                 rounded-2xl
+                dark:bg-slate-950
                 pt-4 pb-12 px-12
                 shadow-md
                 hover:shadow-xl
@@ -27,22 +29,22 @@ function Projects() {
                 max-w-6x1
                  
                 ">
-  <h3 className="text-xl font-normal mb-1 pb-3 mt-3 border-b border-gray-100 leading-snug ">
-  Redesing do Site do Alistamento Militar Brasileiro
+  <h3 className="text-xl font-normal mb-1 pb-3 mt-3 border-b border-gray-100 dark:text-slate-300 dark:border-gray-900 leading-snug ">
+  {t.projects.projectTitle}
   </h3>
 
-  <p className=" mt-3 max-w-3xl text-gray-600 leading-relaxed">
-    Projeto acadêmico de redesign do site do Alistamento Militar Brasileiro, com foco em melhorar a usabilidade e a navegação.</p>
-    <p className="max-w-3xl text-gray-600 leading-relaxed">
-    A proposta buscou modernizar a interface, tornando o site mais intuitivo e funcional, corrigindo problemas de layout e experiência do usuário presentes na versão original.
+  <p className=" mt-3 max-w-3xl text-gray-600 leading-relaxed dark:text-slate-300">
+    {t.projects.projectDescription1}</p>
+    <p className="max-w-3xl text-gray-600 leading-relaxed dark:text-slate-300">
+    {t.projects.projectDescription2}
   </p>
 
-  <div className="flex gap-6 absolute top-5 right-10 ">
-    <a href="https://github.com/leviszz" className="flex flex-col items-center text-gray-500 hover:text-black transition">
-    <GithubIcon className="w-6 h-6  text-gray-500 hover:text-black transition-colors bottom-1 "/><span className="text-xs mt-1">GitHub</span>
+  <div className="flex gap-6 absolute top-5 right-10  text-gray-500 hover:text-black transition colors">
+    <a href="https://github.com/leviszz" className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white">
+    <GithubIcon className="w-6 h-6   transition-colors bottom-1 "/><span className="text-xs mt-1">GitHub</span>
     </a>
-    <a href="https://atividades-facens.vercel.app/index.html" className="flex flex-col items-center text-gray-500 hover:text-black transition">
-    <SiteIcon className="w-6 h-6 text-gray-500 hover:text-black transition-colors bottom-0 "/><span className="text-xs mt-1">Demo</span>
+    <a href="https://atividades-facens.vercel.app/index.html" className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white">
+    <SiteIcon className="w-6 h-6  bottom-0 "/><span className="text-xs mt-1">Demo</span>
     </a>
   </div>
   <CssIcon className="w-6 h-6 text-[#663399] absolute bottom-4 right-4 opacity-80 hover:opacity-100 transition"/>
@@ -51,8 +53,47 @@ function Projects() {
   
 </div>
 
-{/* Adicione mais projetos conforme necessário (Procedimento é copiar do primeiro DIV até o ultimo DIV)*/}
 
+
+
+{/* Adicionar mais projetos conforme necessário (Procedimento é copiar do primeiro DIV até o ultimo DIV)*/}
+
+
+
+
+
+{/*Area do Portfolio*/}
+<div>
+  <h3 className="text-xl font-normal mb-4 mt-16 border-gray-300 leading-snug text-center opacity-50 dark:text-slate-300">
+    {t.projects.portfolioInvite}
+  </h3>
+
+  <div className="flex justify-center gap-6">
+
+    <div className="flex flex-col items-center">
+      <a
+        href="https://github.com/levisszz"
+        className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white"
+      >
+        <GithubIcon className="w-6 h-6 transition-colors" />
+        <span className="text-xs mt-1">GitHub</span>
+      </a>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <a
+        href="https://github.com/levisszz"
+        className="flex flex-col items-center text-gray-500 hover:text-[#F24E1E] transition"
+      >
+        <FigmaIcon className="w-6 h-6 transition-colors" />
+        <span className="text-xs mt-1">Figma</span>
+      </a>
+    </div>
+    
+
+  </div>
+  <h2 className="text-center mt-3 font-normal opacity-50 dark:text-slate-300">{t.projects.technologiesFooter}</h2>
+</div>
     </section>
   );
 }
