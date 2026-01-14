@@ -7,7 +7,7 @@ import FigmaIcon from "../assets/icons/figma.svg?react";
 function Projects({t}) {
   return (
     <section
-      id="projetos"
+      id="projects"
       className="min-h-screen bg-gray-200 dark:bg-slate-900 px-6 py-10"
     >
             <h1 className="text-4xl font-light text-center mb-5 dark:text-slate-300 ">
@@ -18,11 +18,11 @@ function Projects({t}) {
     </h3>
     
 {/* Projeto 1 - Redesing do site do Alistamento Militar Brasileiro*/} 
-<div id="Projeto 1" className=" relative mt-10
+<div id="Projeto 1" className=" relative flex flex-col h-full mt-10
                  bg-white
                 rounded-2xl
                 dark:bg-slate-950
-                pt-4 pb-12 px-12
+                pt-4 pb-4 px-10
                 shadow-md
                 hover:shadow-xl
                 transition
@@ -38,18 +38,27 @@ function Projects({t}) {
     <p className="max-w-3xl text-gray-600 leading-relaxed dark:text-slate-300">
     {t.projects.projectDescription2}
   </p>
-
-  <div className="flex gap-6 absolute top-5 right-10  text-gray-500 hover:text-black transition colors">
-    <a href="https://github.com/leviszz" className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white">
-    <GithubIcon className="w-6 h-6   transition-colors bottom-1 "/><span className="text-xs mt-1">GitHub</span>
+<div className="mt-auto pt-10 flex justify-between items-center sm:items-end">
+  <div className="flex gap-4 text-gray-500 hover:text-black transition-colors">
+    <a href="https://github.com/thiagosilva-git/Atividades-Facens" className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white">
+      <GithubIcon className="w-6 h-6" />
+      <span className="text-xs mt-1">GitHub</span>
     </a>
+
     <a href="https://atividades-facens.vercel.app/index.html" className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white">
-    <SiteIcon className="w-6 h-6  bottom-0 "/><span className="text-xs mt-1">Demo</span>
+      <SiteIcon className="w-6 h-6" />
+      <span className="text-xs mt-1">Demo</span>
     </a>
   </div>
-  <CssIcon className="w-6 h-6 text-[#663399] absolute bottom-4 right-4 opacity-80 hover:opacity-100 transition"/>
-  <JSIcon className="w-6 h-6 text-[#F7DF1E] absolute bottom-4 right-14 opacity-80 hover:opacity-100 transition"/>
-  <HTMLIcon className="w-6 h-6 text-[#E34F26] absolute bottom-4 right-24 opacity-80 hover:opacity-100 transition"/>
+
+  <div className="flex gap-2">
+    <HTMLIcon className="w-6 h-6 text-[#E34F26] opacity-80 hover:opacity-100 transition" />
+    <JSIcon className="w-6 h-6 text-[#F7DF1E] opacity-80 hover:opacity-100 transition" />
+    <CssIcon className="w-6 h-6 text-[#663399] opacity-80 hover:opacity-100 transition" />
+  </div>
+</div>
+  
+  
   
 </div>
 
@@ -72,7 +81,7 @@ function Projects({t}) {
 
     <div className="flex flex-col items-center">
       <a
-        href="https://github.com/levisszz"
+        href="https://github.com/leviszz/Portfolio"
         className="flex flex-col items-center text-gray-500 hover:text-black transition dark:hover:text-white"
       >
         <GithubIcon className="w-6 h-6 transition-colors" />
@@ -82,7 +91,7 @@ function Projects({t}) {
 
     <div className="flex flex-col items-center">
       <a
-        href="https://github.com/levisszz"
+        href="https://www.figma.com/site/b5GXxZTxkDMkYECKgJYm8r/Untitled?node-id=1-568&t=6c1fULuf7VDduaIX-1"
         className="flex flex-col items-center text-gray-500 hover:text-[#F24E1E] transition"
       >
         <FigmaIcon className="w-6 h-6 transition-colors" />

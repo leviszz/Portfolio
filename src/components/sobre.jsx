@@ -1,6 +1,6 @@
 function Sobre ({t}) {
   return (
-    <section id="sobreMim" className="relative min-h-screen bg-gray-200 dark:bg-slate-900 px-6 py-10">
+    <section id="about" className="relative min-h-screen bg-gray-200 dark:bg-slate-900 px-6 py-10">
     <div>
         <h1 className="text-4xl font-light text-center mb-5 dark:text-slate-300">
             {t.about.title}

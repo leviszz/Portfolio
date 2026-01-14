@@ -18,7 +18,7 @@ const pt = {
     note:
       "Obs: Os ícones presentes no canto inferior de cada projeto representam as principais tecnologias utilizadas em seu desenvolvimento.",
     projectTitle:
-      "Redesign do Site do Alistamento Militar Brasileiro",
+      "Redesign do Site do Alistamento Militar Brasileiro - (2025)",
     projectDescription1:
       "Projeto acadêmico de redesign do site do Alistamento Militar Brasileiro, com foco em melhorar a usabilidade e a navegação.",
     projectDescription2:

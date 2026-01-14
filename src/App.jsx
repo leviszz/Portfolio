@@ -29,11 +29,11 @@ function App() {
     <div className="scroll-smooth">
       
       <Header dark={dark} setDark={setDark} lang={lang} setLang={setLang} t={t} />
-      <main className="min-h-screen bg-gray-200 dark:bg-slate-900 flex flex-col items-center justify-center">
+      <main className="min-h-screen  bg-gray-200 dark:bg-slate-900 flex flex-col items-center justify-center">
       <Hero lang={lang} setLang={setLang} t={t} />
       </main>
       <section 
-        id="projetos"
+        id="projects"
         className=" pt-16 w-full max-w-7x1 bg-gray-200 dark:bg-slate-900 flex items-center justify-center border-t border-gray-300 dark:border-slate-800"
       >
         <Projects lang={lang} setLang={setLang} t={t} />  
@@ -42,7 +42,7 @@ function App() {
 
       {/* SOBRE */}
       <section
-        id="sobre"
+        id="about"
         className="pt-16 min-h-screen bg-gray-200 dark:bg-slate-900 flex items-center justify-center border-t border-gray-300 dark:border-slate-800"
       >
         <Sobre lang={lang} setLang={setLang} t={t} />
@@ -51,7 +51,7 @@ function App() {
 
       {/* CONTATO */}
       <section
-        id="contato"
+        id="contact"
         className="pt-16 min-h-screen bg-gray-200 dark:bg-slate-900 flex items-center border-t border-gray-300 justify-center dark:border-slate-800"
       >
         <Contato lang={lang} setLang={setLang} t={t} />

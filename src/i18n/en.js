@@ -18,7 +18,7 @@ const en = {
     note:
       "Note: The icons displayed at the bottom of each project represent the main technologies used in its development.",
     projectTitle:
-      "Redesign of the Brazilian Military Enlistment Website",
+      "Redesign of the Brazilian Military Enlistment Website - (2025)",
     projectDescription1:
       "Academic project focused on redesigning the Brazilian Military Enlistment website, aiming to improve usability and navigation.",
     projectDescription2:
@@ -26,7 +26,7 @@ const en = {
     github: "GitHub",
     demo: "Live Demo",
     portfolioInvite:
-      "I invite you to also explore the development process of this portfolio!",
+      "I also invite you to explore the development process of this portfolio!",
     technologiesFooter: "Technologies used at the bottom of the page.",
   },
 
