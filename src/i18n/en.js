@@ -23,6 +23,11 @@ const en = {
       "Academic project focused on redesigning the Brazilian Military Enlistment website, aiming to improve usability and navigation.",
     projectDescription2:
       "The proposal sought to modernize the interface, making the website more intuitive and functional by fixing layout issues and user experience problems present in the original version.",
+    project2Title: "Task Manager – Task Management System - (2026)",
+    project2Description1:
+      "A fullstack task management application with user authentication. Each user can create, view, complete, and delete only their own tasks, with security enforced on the backend.",
+    project2Description2:
+      "The interface is simple and responsive, making it easy to use across different devices.",
     github: "GitHub",
     demo: "Live Demo",
     portfolioInvite:

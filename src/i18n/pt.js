@@ -23,6 +23,11 @@ const pt = {
       "Projeto acadêmico de redesign do site do Alistamento Militar Brasileiro, com foco em melhorar a usabilidade e a navegação.",
     projectDescription2:
       "A proposta buscou modernizar a interface, tornando o site mais intuitivo e funcional, corrigindo problemas de layout e experiência do usuário presentes na versão original.",
+    project2Title: "Task Manager - Sistema de Gerenciamento de Tarefas - (2026)",
+    project2Description1:
+      "Aplicação fullstack de gerenciamento de tarefas com autenticação de usuários. Cada usuário pode criar, visualizar, concluir e excluir apenas as suas próprias tarefas, com segurança garantida no backend",
+    project2Description2:
+      "A interface é simples e responsiva, facilitando o uso em diferentes dispositivos.",
     github: "GitHub",
     demo: "Demo",
     portfolioInvite:
